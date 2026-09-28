@@ -1,0 +1,390 @@
+16:39:04 DEBUG : Logs will be stored at 'C:/Users/ajmix/Documents/ECE 520/Projects/axi_gpio_dk/axi_gpio_vitis/IDE.log'.
+16:39:17 ERROR : Workspace location C:\Users\ajmix\Documents\ECE 520\Projects\axi_gpio_dk\axi_gpio_vitis contains spaces. Please switch to a workspace without spaces in its path.
+16:39:18 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ajmix\Documents\ECE 520\Projects\axi_gpio_dk\axi_gpio_vitis\temp_xsdb_launch_script.tcl
+16:39:18 INFO  : Registering command handlers for Vitis TCF services
+16:39:18 INFO  : Platform repository initialization has completed.
+16:39:19 ERROR : (XSDB Server)couldn't read file "C:\Users\ajmix\Documents\ECE": permission denied
+
+16:42:19 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+16:42:19 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ajmix\Documents\ECE 520\Projects\axi_gpio_dk\axi_gpio_vitis\temp_xsdb_launch_script.tcl
+16:42:21 ERROR : (XSDB Server)couldn't read file "C:\Users\ajmix\Documents\ECE": permission denied
+
+16:45:21 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+16:45:21 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ajmix\Documents\ECE 520\Projects\axi_gpio_dk\axi_gpio_vitis\temp_xsdb_launch_script.tcl
+16:45:21 ERROR : Failed to openhw "C:/Users/ajmix/AppData/Local/Temp/hwspec_axi_gpio_dk_wrapper8532500063906913550/axi_gpio_dk_wrapper.xsa"
+Reason: xsct server communication channel is not established.
+16:45:23 ERROR : (XSDB Server)couldn't read file "C:\Users\ajmix\Documents\ECE": permission denied
+
+16:48:09 DEBUG : Logs will be stored at 'C:/Users/ajmix/Documents/ECE 520/Projects/axi_gpio_dk/axi_gpio_vitis/IDE.log'.
+16:48:14 ERROR : Workspace location C:\Users\ajmix\Documents\ECE 520\Projects\axi_gpio_dk\axi_gpio_vitis contains spaces. Please switch to a workspace without spaces in its path.
+16:48:15 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ajmix\Documents\ECE 520\Projects\axi_gpio_dk\axi_gpio_vitis\temp_xsdb_launch_script.tcl
+16:48:15 INFO  : Registering command handlers for Vitis TCF services
+16:48:15 INFO  : Platform repository initialization has completed.
+16:48:16 ERROR : (XSDB Server)couldn't read file "C:\Users\ajmix\Documents\ECE": permission denied
+
+16:50:11 DEBUG : Logs will be stored at 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/IDE.log'.
+16:50:14 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ajmix\Documents\ECE_520\Projects\axi_gpio_dk\axi_gpio_vitis\temp_xsdb_launch_script.tcl
+16:50:14 INFO  : Registering command handlers for Vitis TCF services
+16:50:14 INFO  : Platform repository initialization has completed.
+16:50:16 INFO  : XSCT server has started successfully.
+16:50:17 INFO  : plnx-install-location is set to ''
+16:50:17 INFO  : Successfully done setting XSCT server connection channel  
+16:50:17 INFO  : Successfully done query RDI_DATADIR 
+16:50:17 INFO  : Successfully done setting workspace for the tool. 
+16:51:39 INFO  : Result from executing command 'getProjects': axi_gpio_platform
+16:51:39 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+16:52:21 INFO  : Result from executing command 'getProjects': axi_gpio_platform
+16:52:21 INFO  : Result from executing command 'getPlatforms': axi_gpio_platform|C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/axi_gpio_platform/export/axi_gpio_platform/axi_gpio_platform.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+17:04:27 INFO  : Checking for BSP changes to sync application flags for project 'axi_gpio_app'...
+17:06:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:06:03 INFO  : Jtag cable 'Digilent Zybo Z7 210351AF24D9A' is selected.
+17:06:03 INFO  : 'jtag frequency' command is executed.
+17:06:03 INFO  : Context for 'APU' is selected.
+17:06:03 INFO  : System reset is completed.
+17:06:06 INFO  : 'after 3000' command is executed.
+17:06:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24D9A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF24D9A-13722093-0"}' command is executed.
+17:06:07 INFO  : Device configured successfully with "C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/axi_gpio_app/_ide/bitstream/axi_gpio_dk_wrapper.bit"
+17:06:08 INFO  : Context for 'APU' is selected.
+17:06:08 INFO  : Hardware design and registers information is loaded from 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/axi_gpio_platform/export/axi_gpio_platform/hw/axi_gpio_dk_wrapper.xsa'.
+17:06:08 INFO  : 'configparams force-mem-access 1' command is executed.
+17:06:08 INFO  : Context for 'APU' is selected.
+17:06:08 INFO  : Sourcing of 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/axi_gpio_app/_ide/psinit/ps7_init.tcl' is done.
+17:06:08 INFO  : 'ps7_init' command is executed.
+17:06:08 INFO  : 'ps7_post_config' command is executed.
+17:06:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:06:08 INFO  : The application 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/axi_gpio_app/Debug/axi_gpio_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:06:08 INFO  : 'configparams force-mem-access 0' command is executed.
+17:06:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24D9A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF24D9A-13722093-0"}
+fpga -file C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/axi_gpio_app/_ide/bitstream/axi_gpio_dk_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/axi_gpio_platform/export/axi_gpio_platform/hw/axi_gpio_dk_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/axi_gpio_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/axi_gpio_app/Debug/axi_gpio_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:06:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:06:08 INFO  : 'con' command is executed.
+17:06:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+17:06:08 INFO  : Launch script is exported to file 'C:\Users\ajmix\Documents\ECE_520\Projects\axi_gpio_dk\axi_gpio_vitis\axi_gpio_app_system\_ide\scripts\debugger_axi_gpio_app-default.tcl'
+18:59:23 INFO  : Disconnected from the channel tcfchan#3.
+19:00:22 DEBUG : Logs will be stored at 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/IDE.log'.
+19:00:22 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ajmix\Documents\ECE_520\Projects\axi_gpio_dk\axi_gpio_vitis\temp_xsdb_launch_script.tcl
+19:00:24 INFO  : XSCT server has started successfully.
+19:00:24 INFO  : plnx-install-location is set to ''
+19:00:24 INFO  : Successfully done setting XSCT server connection channel  
+19:00:24 INFO  : Successfully done setting workspace for the tool. 
+19:00:31 INFO  : Registering command handlers for Vitis TCF services
+19:00:32 INFO  : Platform repository initialization has completed.
+19:00:32 INFO  : Successfully done query RDI_DATADIR 
+13:18:47 INFO  : Result from executing command 'getProjects': AXI_Task;axi_gpio_platform
+13:18:47 INFO  : Result from executing command 'getPlatforms': axi_gpio_platform|C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/axi_gpio_platform/export/axi_gpio_platform/axi_gpio_platform.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+14:32:09 INFO  : Result from executing command 'getProjects': AXI_Task;axi_gpio_platform
+14:32:09 INFO  : Result from executing command 'getPlatforms': AXI_Task|C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_Task/export/AXI_Task/AXI_Task.xpfm;axi_gpio_platform|C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/axi_gpio_platform/export/axi_gpio_platform/axi_gpio_platform.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+14:32:10 INFO  : Checking for BSP changes to sync application flags for project 'AXI_peripherals_app'...
+14:33:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:33:11 INFO  : Jtag cable 'Digilent Zybo Z7 210351AF24D9A' is selected.
+14:33:11 INFO  : 'jtag frequency' command is executed.
+14:33:11 INFO  : Context for 'APU' is selected.
+14:33:11 INFO  : System reset is completed.
+14:33:14 INFO  : 'after 3000' command is executed.
+14:33:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24D9A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF24D9A-13722093-0"}' command is executed.
+14:33:16 INFO  : Device configured successfully with "C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/_ide/bitstream/axi_gpio_dk_wrapper.bit"
+14:33:16 INFO  : Context for 'APU' is selected.
+14:33:16 INFO  : Hardware design and registers information is loaded from 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_Task/export/AXI_Task/hw/axi_gpio_dk_wrapper.xsa'.
+14:33:16 INFO  : 'configparams force-mem-access 1' command is executed.
+14:33:16 INFO  : Context for 'APU' is selected.
+14:33:16 INFO  : Sourcing of 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/_ide/psinit/ps7_init.tcl' is done.
+14:33:16 INFO  : 'ps7_init' command is executed.
+14:33:16 INFO  : 'ps7_post_config' command is executed.
+14:33:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:33:16 INFO  : The application 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/Debug/AXI_peripherals_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:33:16 INFO  : 'configparams force-mem-access 0' command is executed.
+14:33:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24D9A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF24D9A-13722093-0"}
+fpga -file C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/_ide/bitstream/axi_gpio_dk_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_Task/export/AXI_Task/hw/axi_gpio_dk_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/Debug/AXI_peripherals_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:33:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:33:16 INFO  : 'con' command is executed.
+14:33:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:33:16 INFO  : Launch script is exported to file 'C:\Users\ajmix\Documents\ECE_520\Projects\axi_gpio_dk\axi_gpio_vitis\AXI_peripherals_app_system\_ide\scripts\systemdebugger_axi_peripherals_app_system_standalone.tcl'
+14:36:29 INFO  : Checking for BSP changes to sync application flags for project 'AXI_peripherals_app'...
+14:36:43 INFO  : Disconnected from the channel tcfchan#3.
+14:36:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:36:43 INFO  : Jtag cable 'Digilent Zybo Z7 210351AF24D9A' is selected.
+14:36:43 INFO  : 'jtag frequency' command is executed.
+14:36:43 INFO  : Context for 'APU' is selected.
+14:36:43 INFO  : System reset is completed.
+14:36:46 INFO  : 'after 3000' command is executed.
+14:36:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24D9A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF24D9A-13722093-0"}' command is executed.
+14:36:48 INFO  : Device configured successfully with "C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/_ide/bitstream/axi_gpio_dk_wrapper.bit"
+14:36:48 INFO  : Context for 'APU' is selected.
+14:36:48 INFO  : Hardware design and registers information is loaded from 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_Task/export/AXI_Task/hw/axi_gpio_dk_wrapper.xsa'.
+14:36:48 INFO  : 'configparams force-mem-access 1' command is executed.
+14:36:48 INFO  : Context for 'APU' is selected.
+14:36:48 INFO  : Sourcing of 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/_ide/psinit/ps7_init.tcl' is done.
+14:36:48 INFO  : 'ps7_init' command is executed.
+14:36:48 INFO  : 'ps7_post_config' command is executed.
+14:36:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:36:48 INFO  : The application 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/Debug/AXI_peripherals_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:36:48 INFO  : 'configparams force-mem-access 0' command is executed.
+14:36:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24D9A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF24D9A-13722093-0"}
+fpga -file C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/_ide/bitstream/axi_gpio_dk_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_Task/export/AXI_Task/hw/axi_gpio_dk_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/Debug/AXI_peripherals_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:36:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:36:48 INFO  : 'con' command is executed.
+14:36:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:36:48 INFO  : Launch script is exported to file 'C:\Users\ajmix\Documents\ECE_520\Projects\axi_gpio_dk\axi_gpio_vitis\AXI_peripherals_app_system\_ide\scripts\systemdebugger_axi_peripherals_app_system_standalone.tcl'
+14:38:53 INFO  : Checking for BSP changes to sync application flags for project 'AXI_peripherals_app'...
+14:39:03 INFO  : Disconnected from the channel tcfchan#5.
+14:39:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:39:03 INFO  : Jtag cable 'Digilent Zybo Z7 210351AF24D9A' is selected.
+14:39:03 INFO  : 'jtag frequency' command is executed.
+14:39:03 INFO  : Context for 'APU' is selected.
+14:39:03 INFO  : System reset is completed.
+14:39:06 INFO  : 'after 3000' command is executed.
+14:39:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24D9A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF24D9A-13722093-0"}' command is executed.
+14:39:07 INFO  : Device configured successfully with "C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/_ide/bitstream/axi_gpio_dk_wrapper.bit"
+14:39:07 INFO  : Context for 'APU' is selected.
+14:39:07 INFO  : Hardware design and registers information is loaded from 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_Task/export/AXI_Task/hw/axi_gpio_dk_wrapper.xsa'.
+14:39:07 INFO  : 'configparams force-mem-access 1' command is executed.
+14:39:07 INFO  : Context for 'APU' is selected.
+14:39:07 INFO  : Sourcing of 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/_ide/psinit/ps7_init.tcl' is done.
+14:39:07 INFO  : 'ps7_init' command is executed.
+14:39:07 INFO  : 'ps7_post_config' command is executed.
+14:39:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:39:08 INFO  : The application 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/Debug/AXI_peripherals_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:39:08 INFO  : 'configparams force-mem-access 0' command is executed.
+14:39:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24D9A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF24D9A-13722093-0"}
+fpga -file C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/_ide/bitstream/axi_gpio_dk_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_Task/export/AXI_Task/hw/axi_gpio_dk_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/Debug/AXI_peripherals_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:39:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:39:08 INFO  : 'con' command is executed.
+14:39:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:39:08 INFO  : Launch script is exported to file 'C:\Users\ajmix\Documents\ECE_520\Projects\axi_gpio_dk\axi_gpio_vitis\AXI_peripherals_app_system\_ide\scripts\systemdebugger_axi_peripherals_app_system_standalone.tcl'
+14:40:56 INFO  : Checking for BSP changes to sync application flags for project 'AXI_peripherals_app'...
+14:41:08 INFO  : Disconnected from the channel tcfchan#7.
+14:41:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:41:08 INFO  : Jtag cable 'Digilent Zybo Z7 210351AF24D9A' is selected.
+14:41:08 INFO  : 'jtag frequency' command is executed.
+14:41:08 INFO  : Context for 'APU' is selected.
+14:41:08 INFO  : System reset is completed.
+14:41:11 INFO  : 'after 3000' command is executed.
+14:41:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24D9A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF24D9A-13722093-0"}' command is executed.
+14:41:12 INFO  : Device configured successfully with "C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/_ide/bitstream/axi_gpio_dk_wrapper.bit"
+14:41:12 INFO  : Context for 'APU' is selected.
+14:41:12 INFO  : Hardware design and registers information is loaded from 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_Task/export/AXI_Task/hw/axi_gpio_dk_wrapper.xsa'.
+14:41:12 INFO  : 'configparams force-mem-access 1' command is executed.
+14:41:12 INFO  : Context for 'APU' is selected.
+14:41:12 INFO  : Sourcing of 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/_ide/psinit/ps7_init.tcl' is done.
+14:41:13 INFO  : 'ps7_init' command is executed.
+14:41:13 INFO  : 'ps7_post_config' command is executed.
+14:41:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:41:13 INFO  : The application 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/Debug/AXI_peripherals_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:41:13 INFO  : 'configparams force-mem-access 0' command is executed.
+14:41:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24D9A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF24D9A-13722093-0"}
+fpga -file C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/_ide/bitstream/axi_gpio_dk_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_Task/export/AXI_Task/hw/axi_gpio_dk_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/Debug/AXI_peripherals_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:41:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:41:13 INFO  : 'con' command is executed.
+14:41:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:41:13 INFO  : Launch script is exported to file 'C:\Users\ajmix\Documents\ECE_520\Projects\axi_gpio_dk\axi_gpio_vitis\AXI_peripherals_app_system\_ide\scripts\systemdebugger_axi_peripherals_app_system_standalone.tcl'
+05:26:27 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ajmix\Documents\ECE_520\Projects\axi_gpio_dk\axi_gpio_vitis\temp_xsdb_launch_script.tcl
+11:34:45 DEBUG : Logs will be stored at 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/IDE.log'.
+11:34:46 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ajmix\Documents\ECE_520\Projects\axi_gpio_dk\axi_gpio_vitis\temp_xsdb_launch_script.tcl
+11:34:48 INFO  : XSCT server has started successfully.
+11:34:48 INFO  : plnx-install-location is set to ''
+11:34:48 INFO  : Successfully done setting XSCT server connection channel  
+11:34:48 INFO  : Successfully done setting workspace for the tool. 
+11:34:52 INFO  : Registering command handlers for Vitis TCF services
+11:34:52 INFO  : Successfully done query RDI_DATADIR 
+11:34:52 INFO  : Platform repository initialization has completed.
+11:35:52 INFO  : Result from executing command 'getProjects': AXI_Task;axi_gpio_platform
+11:35:52 INFO  : Result from executing command 'getPlatforms': AXI_Task|C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_Task/export/AXI_Task/AXI_Task.xpfm;axi_gpio_platform|C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/axi_gpio_platform/export/axi_gpio_platform/axi_gpio_platform.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+11:35:52 INFO  : Checking for BSP changes to sync application flags for project 'AXI_peripherals_app'...
+11:36:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:36:33 INFO  : Jtag cable 'Digilent Zybo Z7 210351AF24D9A' is selected.
+11:36:33 INFO  : 'jtag frequency' command is executed.
+11:36:33 INFO  : Context for 'APU' is selected.
+11:36:33 INFO  : System reset is completed.
+11:36:36 INFO  : 'after 3000' command is executed.
+11:36:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24D9A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF24D9A-13722093-0"}' command is executed.
+11:36:38 INFO  : Device configured successfully with "C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/axi_gpio_app/_ide/bitstream/axi_gpio_dk_wrapper.bit"
+11:36:38 INFO  : Context for 'APU' is selected.
+11:36:38 INFO  : Hardware design and registers information is loaded from 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/axi_gpio_platform/export/axi_gpio_platform/hw/axi_gpio_dk_wrapper.xsa'.
+11:36:38 INFO  : 'configparams force-mem-access 1' command is executed.
+11:36:38 INFO  : Context for 'APU' is selected.
+11:36:38 INFO  : Sourcing of 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/axi_gpio_app/_ide/psinit/ps7_init.tcl' is done.
+11:36:38 INFO  : 'ps7_init' command is executed.
+11:36:38 INFO  : 'ps7_post_config' command is executed.
+11:36:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:36:38 INFO  : The application 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/axi_gpio_app/Debug/axi_gpio_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:36:38 INFO  : 'configparams force-mem-access 0' command is executed.
+11:36:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24D9A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF24D9A-13722093-0"}
+fpga -file C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/axi_gpio_app/_ide/bitstream/axi_gpio_dk_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/axi_gpio_platform/export/axi_gpio_platform/hw/axi_gpio_dk_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/axi_gpio_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/axi_gpio_app/Debug/axi_gpio_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:36:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:36:39 INFO  : 'con' command is executed.
+11:36:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:36:39 INFO  : Launch script is exported to file 'C:\Users\ajmix\Documents\ECE_520\Projects\axi_gpio_dk\axi_gpio_vitis\axi_gpio_app_system\_ide\scripts\debugger_axi_gpio_app-default.tcl'
+11:39:07 INFO  : Disconnected from the channel tcfchan#3.
+11:39:59 INFO  : Checking for BSP changes to sync application flags for project 'AXI_peripherals_app'...
+11:40:28 INFO  : Checking for BSP changes to sync application flags for project 'AXI_peripherals_app'...
+11:42:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:42:27 INFO  : Jtag cable 'Digilent Zybo Z7 210351AF24D9A' is selected.
+11:42:27 INFO  : 'jtag frequency' command is executed.
+11:42:27 INFO  : Context for 'APU' is selected.
+11:42:27 INFO  : System reset is completed.
+11:42:30 INFO  : 'after 3000' command is executed.
+11:42:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24D9A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF24D9A-13722093-0"}' command is executed.
+11:42:32 INFO  : Device configured successfully with "C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/_ide/bitstream/axi_gpio_dk_wrapper.bit"
+11:42:32 INFO  : Context for 'APU' is selected.
+11:42:32 INFO  : Hardware design and registers information is loaded from 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_Task/export/AXI_Task/hw/axi_gpio_dk_wrapper.xsa'.
+11:42:32 INFO  : 'configparams force-mem-access 1' command is executed.
+11:42:32 INFO  : Context for 'APU' is selected.
+11:42:32 INFO  : Sourcing of 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/_ide/psinit/ps7_init.tcl' is done.
+11:42:33 INFO  : 'ps7_init' command is executed.
+11:42:33 INFO  : 'ps7_post_config' command is executed.
+11:42:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:42:33 INFO  : The application 'C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/Debug/AXI_peripherals_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:42:33 INFO  : 'configparams force-mem-access 0' command is executed.
+11:42:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24D9A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF24D9A-13722093-0"}
+fpga -file C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/_ide/bitstream/axi_gpio_dk_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_Task/export/AXI_Task/hw/axi_gpio_dk_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app/Debug/AXI_peripherals_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:42:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:42:33 INFO  : 'con' command is executed.
+11:42:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:42:33 INFO  : Launch script is exported to file 'C:\Users\ajmix\Documents\ECE_520\Projects\axi_gpio_dk\axi_gpio_vitis\AXI_peripherals_app_system\_ide\scripts\debugger_axi_peripherals_app-default.tcl'

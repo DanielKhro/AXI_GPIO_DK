@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="AXI_peripherals_app" location="C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_peripherals_app" platform="C:/Users/ajmix/Documents/ECE_520/Projects/axi_gpio_dk/axi_gpio_vitis/AXI_Task/export/AXI_Task/AXI_Task.xpfm" platformUID="xilinx:zybo-z7-10::0.0(custom)" systemProject="AXI_peripherals_app_system" sysConfig="AXI_Task" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="6b3808f4440631dd03d18cb64e320ba5">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1130878215">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1764413845" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>
